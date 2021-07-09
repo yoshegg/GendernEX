@@ -1,6 +1,7 @@
 {
   "name": "GendernEX",
-  "description": "Erweiterung zur Konfiguration der Anzeige gegenderter Wörter.",
+  "description": "Erweiterung zum Rücktransformieren gegenderter Wörter.",
+  "author": "Christophe Biwer",
   "version": "0.1.0",
   "manifest_version": 3,
   "content_scripts": [
