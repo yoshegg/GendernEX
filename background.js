@@ -102,10 +102,10 @@ function replaceFromDatabase(text, entry) {
  */
 function replaceDefaults(text) {
     // Replaces :innen, *innen and _innen.
-    text = text.replace(/[:*_]innen/g, '')
+    text = text.replace(/[:*_]innen[:*_]?/g, '')
 
     // Replaces :in, *in and _in
-    text = text.replace(/[:*_]in/g, '')
+    text = text.replace(/[:*_]in[:*_]?/g, '')
 
     // Replaces -Innen
     text = text.replace(/([A-z]+)Innen\b/g, '$1')
